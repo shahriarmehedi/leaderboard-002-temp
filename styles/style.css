@@ -34,6 +34,11 @@ main {
   margin-top: 10px;
 }
 
+.title-2 {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
 .top-players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -84,4 +89,30 @@ hr {
 .blogs-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 985px) {
+  .section-title {
+    text-align: center;
+  }
+
+  .top-players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .blogs-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .player {
+    justify-content: center;
+  }
+
+  .blogs {
+    flex-direction: column;
+  }
+
+  .blog-detail {
+    margin-top: 30px;
+  }
 }
