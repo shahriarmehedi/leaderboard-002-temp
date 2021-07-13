@@ -30,8 +30,8 @@ nav ul li a {
   bottom: -15px;
 }
 
-a.active,
-a:hover {
+/* nav ul li a.active, */
+nav ul li a:hover {
   background: #20d4ad;
   transition: 0.5s;
 }
